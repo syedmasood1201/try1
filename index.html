@@ -5,8 +5,11 @@
     <meta charset="utf-8">
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="icon" href="img/favicon.png">
 </head>
 <style>
     .fa {
@@ -58,10 +61,102 @@
         background: #ff9234;
         color: white;
     }
+    
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    
+    header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(index.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    u1 {
+        float: right;
+        list-style-type: none;
+        margin-top: 50px;
+    }
+    
+    u1 li {
+        display: inline-block;
+    }
+    
+    u1 li a {
+        text-decoration: none;
+        color: #000000;
+        padding: 5px 20px;
+        border: 1px solid;
+        transition: 0.5s ease;
+    }
+    
+    u1 li a:hover {
+        background-color: #0000;
+        color: #000;
+    }
+    
+    .logo img {
+        float: left;
+        width: 260px;
+        height: auto;
+        margin-top: 20px;
+    }
+    
+    .main {
+        max-width: 1200px;
+        margin: auto;
+    }
 </style>
 </head>
 
 <body>
+    <!-- <section id="title">
+    <div class="container">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="img/nav.png" width="30" height="30" class="d-inline-block align-center" alt="" loading="lazy">
+
+        </a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+          <ul class="navbar-nav ml-auto">
+            <li class=nav-item>
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class=nav-item>
+
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+
+    </div>
+  </section> -->
+    <div class="main">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png">
+            </a>
+
+        </div>
+        <u1>
+            <li><a href="login.html">Home</a></li>
+        </u1>
+    </div>
+    <br><br><br><br>
     <!-- about team -->
 
     <section class="team-section text-center my-5">
@@ -70,9 +165,12 @@
         <!-- <h3 class="h1-responsive font-weight-bold my-5">OUR TEAM</h3> -->
 
 
+
+
         <!-- ROW 1 -->
 
         <!-- Grid row -->
+        <br>
         <div class="row text-center">
 
             <!-- Grid column -->
@@ -101,13 +199,13 @@
                 <h4 class="font-weight-bold dark-grey-text my-4">Jayraj Roshan</h4>
                 <h6 class="text-uppercase grey-text mb-3"><strong>Tech Lead</strong></h6>
                 <!-- linkedin-->
-                <a href="#" class="fa fa-linkedin"></a>
+                <a href="https://www.linkedin.com/in/jayraj-roshan/" class="fa fa-linkedin"></a>
                 <!-- GitHub -->
                 <a href="#" class="fa fa-github"></a>
                 <!--instagram -->
-                <a href="#" class="fa fa-instagram"></a>
+                <a href="https://www.instagram.com/roshanjayraj/" class="fa fa-instagram"></a>
                 <!-- personalsite -->
-                <!-- <a href="#" class="fa fa-html5"></a> -->
+                <a href="https://jayraj.co.in" class="fa fa-html5"></a>
             </div>
             <!-- Grid column -->
 
@@ -123,7 +221,7 @@
                 <!-- GitHub -->
                 <a href="https://github.com/shreyab8" class="fa fa-github"></a>
                 <!--instagram -->
-                <a href="https://www.instagram.com/shreyab8" class="fa fa-instagram"></a>
+                <a href="https://www.instagram.com/shreya_b8/" class="fa fa-instagram"></a>
                 <!-- personalsite -->
                 <a href="https://www.simplyshreya.in" class="fa fa-html5"></a>
             </div>
@@ -269,7 +367,7 @@
             <!-- Grid column -->
             <div class="col-md-4 mb-md-0 mb-5">
                 <div class="avatar mx-auto">
-                    <img src="img/uk.png" class="rounded z-depth-1-half" alt="Sample avatar">
+                    <img src="img/aflah.png" class="rounded z-depth-1-half" alt="Sample avatar">
                 </div>
                 <h4 class="font-weight-bold dark-grey-text my-4">Aflah Nazer V P</h4>
                 <h6 class="text-uppercase grey-text mb-3"><strong>Core Technical Member</strong></h6>
@@ -439,11 +537,11 @@
                 <h4 class="font-weight-bold dark-grey-text my-4">V SUVIN YESHWANTH REDDY</h4>
                 <h6 class="text-uppercase grey-text mb-3"><strong>Management Member</strong></h6>
                 <!-- linkedin-->
-                <a href="#" class="fa fa-linkedin"></a>
+                <a href="https://www.linkedin.com/mwlite/in/suvin-reddy-00959518a" class="fa fa-linkedin"></a>
                 <!-- GitHub -->
-                <a href="#" class="fa fa-github"></a>
+                <a href="https://github.com/suvin17" class="fa fa-github"></a>
                 <!--instagram -->
-                <a href="#" class="fa fa-instagram"></a>
+                <a href="https://www.instagram.com/suvin_reddy/" class="fa fa-instagram"></a>
                 <!-- personalsite -->
                 <!-- <a href="#" class="fa fa-html5"></a> -->
             </div>
@@ -485,11 +583,11 @@
                 <h4 class="font-weight-bold dark-grey-text my-4">Aritra Dutta</h4>
                 <h6 class="text-uppercase grey-text mb-3"><strong>Management Member</strong></h6>
                 <!-- linkedin-->
-                <a href="#" class="fa fa-linkedin"></a>
+                <a href="https://www.linkedin.com/in/aritra-datta-77b308169" class="fa fa-linkedin"></a>
                 <!-- GitHub -->
-                <a href="#" class="fa fa-github"></a>
+                <a href="https://github.com/Aritra600" class="fa fa-github"></a>
                 <!--instagram -->
-                <a href="#" class="fa fa-instagram"></a>
+                <a href="https://www.instagram.com/aritra_datta_/" class="fa fa-instagram"></a>
                 <!-- personalsite -->
                 <!-- <a href="#" class="fa fa-html5"></a> -->
             </div>
@@ -569,7 +667,7 @@
                 <!-- GitHub -->
                 <a href="https://github.com/shubhm01" class="fa fa-github"></a>
                 <!--instagram -->
-                <a href="https://www.instagram.com/_.napps/" class="fa fa-instagram"></a>
+                <a href="https://www.instagram.com/_.napps_/" class="fa fa-instagram"></a>
                 <!-- personalsite -->
                 <!-- <a href="#" class="fa fa-html5"></a> -->
             </div>
@@ -578,6 +676,22 @@
     </section><br><br>
     <!-- ROW 8 -->
 
+    <!-- <script>
+    window.onscroll = function() {
+      myFunction()
+    };
+
+    var navbar = document.getElementById("title");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script> -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
